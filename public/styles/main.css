@@ -1,0 +1,53 @@
+:root {
+  --color1: #D9DFC6;
+  --color2: #EFF3EA;
+  --color3: #FFFDF0;
+  --color4: #FFF2C2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: var(--color2);
+}
+
+h1 {
+  color: rgb(89, 63, 63);
+  font-family: "Titan One", cursive;
+  margin-bottom: 20px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+main {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.container {
+  display : grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.matchup-container {
+  width: 600px;
+  height: 400px;
+  margin-bottom: 20px;
+  padding: 15px;
+  border: black solid 2px;
+  border-radius: 15px;
+}
+
+.video {
+  width: 90%;
+  height: 30%;
+  max-height: 200px;
+  border-radius: 20px;
+  margin: 0 auto;
+}
